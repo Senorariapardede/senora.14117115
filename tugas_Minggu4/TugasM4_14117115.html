@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>CSS Website Layout</title>
+<style>
+
+
+    .header {
+        background-color: #ff1717;
+        padding: 20px;
+        text-align: left;
+    }
+
+    .navbar {
+        font-family: 'Times New Roman', Times, serif;
+        overflow: hidden;
+        background-color: rgb(155, 48, 48);
+    }
+
+    .navbar a {
+        float: left;
+        color: #ebe6e6;
+        text-align: center;
+        padding: 14px 16px;
+    }
+
+    .column {
+        float: left;
+        width: 80%;
+        height: 720px;
+        background-color: #ccc6c6;
+    }
+    .column1 {
+        float: left;
+        width: 20%;
+       
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .footer{
+        background-color: rgb(204, 216, 226);
+        padding: 20 px;
+        text-align: left;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Pemrograman Web</h1> <p>Tutorial belajar membuat layout website sederhana</p>
+</div>
+
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="#">Html</a>
+  <a href="#">CSS</a>
+  <a href="#">PHP</a>
+  <a href="#">JavaScript</a>
+</div>
+
+<div class="row">
+  <div class="column1">
+        sidebar : 
+        <ul>
+            <li><a href="google.com">BelajarHTML</a></li>
+            <li><a href="google.com">BelajarCSS</a></li>
+            <li><a href="google.com">PHP</a></li>
+            <li><a href="google.com">AJAX</a></li>
+        </ul>  
+    </div>
+  
+  <div class="column">
+        <p>Content</p>
+  </div>
+  
+</div>
+<div class="footer">footer</div>
+</body>
+</html>
