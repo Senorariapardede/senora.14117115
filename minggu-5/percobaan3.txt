@@ -1,0 +1,2 @@
+percobaan 3
+properti ditampung dalam variabel dan penggunaannya tinggal memanggil variabel tersebut.

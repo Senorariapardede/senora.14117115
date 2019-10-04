@@ -1,0 +1,2 @@
+percobaan 2
+nested-property.css di dalam nested-property.html berperaan sebagai properti dengan penggunaan border top, border-bottom, text-slign, padding, bentuk font, fontsize, color yang ada di nested.css
